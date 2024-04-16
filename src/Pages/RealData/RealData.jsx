@@ -22,7 +22,7 @@ const RealData = () => {
         <div>
             {
                 users.map(user => (
-                    <RealData key={user.id} user={user}/>
+                    <RealDataComp key={user.id} user={user}/>
                 ))
             }
         </div>
